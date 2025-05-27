@@ -1,0 +1,94 @@
+@media (min-width: 740px) and (max-width: 1023px) {
+  body {
+    font-size: 16px;
+  }
+
+  /* ---------------------------------------------------
+    Phần thanh điều hướng
+  ----------------------------------------------------- */
+
+  /* Thu nhỏ khoảng cách cột giữa và tổ chức lại đứng center*/
+  .navlist {
+    display: grid;
+    grid-template-columns: 1fr 1fr minmax(50px, 80px) 1fr 1fr;
+  }
+
+  /* font chữ 16px phù hợp với table */
+  .navlist a {
+    font-size: 16px;
+  }
+
+  /* ẩn hình avatar */
+  .avatar-image {
+    display: none;
+  }
+
+  /* ---------------------------------------------------
+    Phần mục tiêu, Phần thông tin
+  ----------------------------------------------------- */
+
+  /* chỉnh lại padding */
+  .targets-information .targets {
+    padding: 30px 30px;
+    font-size: 14px;
+  }
+
+  .targets-information .information {
+    padding: 30px 30px;
+    font-size: 14px;
+  }
+
+  /* --------------------------------------------------------------------------------------------------------
+    Phần  thông tin sự nghiệp (kinh nghiệm, học vấn, hoạt động, sở thích,ngôn ngữ, kỹ năng) cùng cấu trúc gird
+  ----------------------------------------------------------------------------------------------------------- */
+  /* chỉnh lại padding */
+  .info-career {
+    padding: 0 10px;
+  }
+
+  /* ---------------------------------------------------
+    Phần chứng chỉ
+  ----------------------------------------------------- */
+
+  /* chia lại thành 1 cột 2 hàng: image và content */
+  .certificate-content .certificate-item {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+  }
+
+  /* image */
+  .certificate-item img {
+    max-width: 300px;
+    height: auto;
+    margin-bottom: 20px;
+  }
+
+  .certificate-item div {
+    font-size: 14px;
+    line-height: 1.4;
+  }
+
+  /* ---------------------------------------------------
+    Phần dự án
+  ----------------------------------------------------- */
+
+  /* hiệu chỉnh lại padding */
+  .project {
+    padding: 50px 10px;
+  }
+
+  /* hiểu chỉnh h bằng nhau 3 cột */
+  .project-table table {
+    height: 300px;
+  }
+
+  /* ---------------------------------------------------
+    Phần chân trang, thông tin liên hệ
+  ----------------------------------------------------- */
+
+  /* hiệu chỉnh lề phải  */
+  .icon-footer {
+    margin-right: 60px;
+  }
+}
