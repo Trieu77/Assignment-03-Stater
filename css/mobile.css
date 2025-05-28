@@ -119,7 +119,11 @@
   /* ---------------------------------------------------
     Phần dự án
   ----------------------------------------------------- */
-
+  /* chia thành 1 cột */
+  .project-content {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
   /* Hiệu chỉnh padding tổng thể project */
   .project {
     padding: 50px 10px;

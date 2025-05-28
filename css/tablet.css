@@ -50,7 +50,14 @@
     Phần chứng chỉ
   ----------------------------------------------------- */
 
+  /* Hiệu chỉnh margin, padding */
+  .certificate {
+    margin-top: 40px;
+    padding: 10px 20px;
+  }
+
   /* chia lại thành 1 cột 2 hàng: image và content */
+
   .certificate-content .certificate-item {
     display: grid;
     grid-template-columns: 1fr;
@@ -59,7 +66,7 @@
 
   /* image */
   .certificate-item img {
-    max-width: 300px;
+    max-width: 350px;
     height: auto;
     margin-bottom: 20px;
   }
