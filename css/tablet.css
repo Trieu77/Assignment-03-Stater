@@ -38,12 +38,28 @@
     font-size: 14px;
   }
 
+  /* Hiệu chỉnh W của input */
+  .email-block {
+    width: 350px;
+  }
+
   /* --------------------------------------------------------------------------------------------------------
     Phần  thông tin sự nghiệp (kinh nghiệm, học vấn, hoạt động, sở thích,ngôn ngữ, kỹ năng) cùng cấu trúc gird
   ----------------------------------------------------------------------------------------------------------- */
   /* chỉnh lại padding */
   .info-career {
     padding: 0 10px;
+  }
+  /* Hiển thị nội dung loại bỏ button view sử dụng cho table */
+  .view-button {
+    display: none;
+  }
+  .hidden {
+    display: inline-block;
+  }
+  /* Hiệu chỉnh margin */
+  .content {
+    margin-top: 10px;
   }
 
   /* ---------------------------------------------------
@@ -83,6 +99,24 @@
   /* hiệu chỉnh lại padding */
   .project {
     padding: 50px 10px;
+  }
+
+  /* h2: Project */
+  .project-item h2 {
+    font-size: 20px;
+    font-weight: 400;
+  }
+
+  .position {
+    font-size: 10px;
+  }
+
+  .position i {
+    margin-left: 5px;
+  }
+
+  .position span:first-child {
+    padding: 6px 5px;
   }
 
   /* hiểu chỉnh h bằng nhau 3 cột */

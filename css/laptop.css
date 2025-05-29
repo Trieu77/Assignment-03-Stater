@@ -172,7 +172,10 @@ img {
   color: #333;
   transform: scale(1.2);
 }
-
+.email-block {
+  /* padding-right: 150px; */
+  width: 500px;
+}
 /* --------------------------------------------------------------------------------------------------------
     Phần  thông tin sự nghiệp (kinh nghiệm, học vấn, hoạt động, sở thích,ngôn ngữ, kỹ năng) cùng cấu trúc gird
 ----------------------------------------------------------------------------------------------------------- */
@@ -197,28 +200,38 @@ img {
 }
 
 /* chứa tiêu để và icon */
-.career-header {
+/* .career-header {
   display: grid;
   grid-template-columns: 75% 25%;
   grid-template-rows: 70px;
   justify-content: center;
   align-items: center;
+} */
+.career-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-
 /* chứa tiêu đề và buton: căn giữa */
 .career-title {
+  width: 75%;
   text-align: center;
 }
 
 /* đảo tt button */
-.career-title .toggle-btn {
+.view-button {
+  position: relative;
+}
+.view-button .toggle-btn {
   display: none;
+  position: absolute;
   text-transform: uppercase;
   font-size: 12px;
+  left: 30%;
 }
 
 /* di chuyển chuột => btn xuất hiện */
-.career-title:hover .toggle-btn {
+.career-box:hover .toggle-btn {
   display: inline-block;
 }
 
@@ -234,7 +247,7 @@ img {
 
 .content {
   padding-left: 20px;
-  margin-top: 30px;
+  margin-top: 40px;
 }
 
 .content h3 {
@@ -274,6 +287,9 @@ img {
 
 /* Thêm cho từng phần  */
 /* Phần sở thích */
+#hobby .content {
+  padding: 0;
+}
 /* Thêm vào  biểu tượng icon */
 .hobby-item {
   display: grid;
@@ -310,7 +326,7 @@ img {
 
 /* Thêm phần ngôn ngữ, kỹ năng */
 .option-item {
-  margin-top: 20px;
+  margin-top: 40px;
   padding-left: 20px;
 }
 /* tạo hình oval */

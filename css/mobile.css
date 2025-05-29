@@ -63,12 +63,28 @@
     text-align: center;
   }
 
+  /* Hiệu chỉnh W của input */
+  .email-block {
+    width: 340px;
+  }
+
   /* --------------------------------------------------------------------------------------------------------
     Phần  thông tin sự nghiệp (kinh nghiệm, học vấn, hoạt động, sở thích,ngôn ngữ, kỹ năng) cùng cấu trúc gird
   ----------------------------------------------------------------------------------------------------------- */
   /* Hiệu chỉnh padding */
   .info-career {
     padding: 0 10px;
+  }
+  /* Hiển thị nội dung loại bỏ button view sử dụng cho mobile */
+  .view-button {
+    display: none;
+  }
+  .hidden {
+    display: inline-block;
+  }
+  /* Hiệu chỉnh margin */
+  .content {
+    margin-top: 10px;
   }
 
   /* ---------------------------------------------------
